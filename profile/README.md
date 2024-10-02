@@ -4,7 +4,7 @@ Welcome to the AVIS Fleet Management System GitHub organization. This organizati
 
 ## Repositories
 
-### 1. [Fleet Optimizer](https://github.com/AVIS-EntropiaAI/fleet-optimizer-lambda)
+### 1. [Fleet Composition Optimizer](https://github.com/AVIS-EntropiaAI/fleet-composition-optimizer)
 - **Description**: AWS Lambda function for optimizing AVIS's vehicle fleet composition.
 - **Key Features**:
   - Uses linear programming to determine optimal mix of vehicles to keep or sell.
