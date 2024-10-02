@@ -4,26 +4,33 @@ Welcome to the AVIS Fleet Management System GitHub organization. This organizati
 
 ## Repositories
 
-### 1. [Fleet Composition Optimizer](https://github.com/AVIS-EntropiaAI/fleet-composition-optimizer)
+### 1. [Web App](https://github.com/AVIS-EntropiaAI/Dashboard)
+- **Description**: Next.js-based web application for visualizing and interacting with fleet management data.
+- **Key Features**:
+  - Real-time data visualization of fleet status and optimization results.
+  - Interactive interface for running fleet optimization and price optimization models.
+  - Integration with other components of the Fleet Management System.
+
+### 2. [Fleet Composition Optimizer](https://github.com/AVIS-EntropiaAI/fleet-composition-optimizer)
 - **Description**: AWS Lambda function for optimizing AVIS's vehicle fleet composition.
 - **Key Features**:
   - Uses linear programming to determine optimal mix of vehicles to keep or sell.
   - Configurable constraints (budget, fleet size, minimum profit).
   - Penalty system for high mileage and aged vehicles.
 
-### 2. [Fleet Status Updater](https://github.com/AVIS-EntropiaAI/fleet-status-updater)
+### 3. [Fleet Status Updater](https://github.com/AVIS-EntropiaAI/fleet-status-updater)
 - **Description**: Script for retrieving and consolidating AVIS fleet data from various sources.
 - **Key Features**:
   - Combines data from databases and Excel files.
   - Provides a unified view of current fleet status.
 
-### 3. [Price Optimization Model](https://github.com/AVIS-EntropiaAI/price-optimization-model)
+### 4. [Price Optimization Model](https://github.com/AVIS-EntropiaAI/price-optimization-model)
 - **Description**: AWS Lambda function for determining optimal selling prices for vehicles.
 - **Key Features**:
   - Uses pre-trained XGBoost model to predict optimal selling price and profit.
   - Considers historical sales data and current fleet representation.
 
-### 4. [Vehicle Categories Sales Forecast](https://github.com/AVIS-EntropiaAI/vehicle-categories-sales-forecast)
+### 5. [Vehicle Categories Sales Forecast](https://github.com/AVIS-EntropiaAI/vehicle-categories-sales-forecast)
 - **Description**: Python script for forecasting vehicle sales using INEGI data.
 - **Key Features**:
   - Employs triple exponential smoothing (Holt-Winters method) for forecasting.
@@ -49,6 +56,7 @@ Welcome to the AVIS Fleet Management System GitHub organization. This organizati
 
 - Lambda functions should be deployed to your AWS environment. Ensure proper IAM roles and permissions are set up.
 - For scripts, follow the usage instructions in their respective README files.
+- The web app can be deployed using Vercel or your preferred Next.js hosting solution.
 
 ## Contributing
 
