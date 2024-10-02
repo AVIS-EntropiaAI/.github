@@ -27,7 +27,7 @@ Welcome to the AVIS Fleet Management System GitHub organization. This organizati
 ### 4. [Price Optimization Model](https://github.com/AVIS-EntropiaAI/price-optimization-model)
 - **Description**: AWS Lambda function for determining optimal selling prices for vehicles.
 - **Key Features**:
-  - Uses pre-trained XGBoost model to predict optimal selling price and assosciated profit.
+  - Uses pre-trained XGBoost model to predict optimal selling price and associated profit.
   - Considers historical sales data and current fleet representation.
 
 ### 5. [Vehicle Categories Sales Forecast](https://github.com/AVIS-EntropiaAI/vehicle-categories-sales-forecast)
@@ -48,7 +48,7 @@ Welcome to the AVIS Fleet Management System GitHub organization. This organizati
 
 ## Development and Testing
 
-- Each repository contains its own set of unit tests. Run these tests before making any changes or deployments.
+- Each repository contains its own set of unit tests. Run these tests before and after making any changes or before deployments.
 - Use virtual environments when working with Python projects to manage dependencies.
 - For Lambda functions, test locally using the provided instructions before deploying to AWS.
 
