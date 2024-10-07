@@ -37,6 +37,13 @@ Welcome to the AVIS Fleet Management System GitHub organization. This organizati
   - Optimizes model parameters for each vehicle segment.
   - Generates forecasts, metrics, and visualizations.
 
+### 6. [Scrapers](https://github.com/AVIS-EntropiaAI/scrapers)
+- **Description**: Collection of web scraping scripts for gathering vehicle data from various online marketplaces.
+- **Key Features**:
+  - Includes scrapers for Mercado Libre, Kavak, and Autocosmos.
+  - Extracts detailed vehicle information including prices, specifications, and market trends.
+  - Provides up-to-date market data for price optimization and fleet management decisions.
+
 ## Getting Started
 
 1. Clone the desired repository:
