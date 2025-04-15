@@ -43,6 +43,12 @@ Welcome to the AVIS Fleet Management System GitHub organization. This organizati
   - Includes scrapers for Mercado Libre, Kavak, and Autocosmos.
   - Extracts detailed vehicle information including prices, specifications, and market trends.
   - Provides up-to-date market data for price optimization and fleet management decisions.
+ 
+### 7. [Price-Matching](https://github.com/AVIS-EntropiaAI/Price-Matching)
+- **Description**: Series of python scripts to be used to match second hand car prices with Avis' fleet of cars.
+- **Key Features**:
+  - Utilises the scraped data from Scrapers and the Guia Autométrica to understand the fair value of each of Avis' cars.
+  - Creates a dataset of the extracted second-hand prices from the Guia Autométrica.
 
 ## Getting Started
 
